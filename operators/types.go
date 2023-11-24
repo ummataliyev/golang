@@ -4,7 +4,7 @@ import "fmt"
 
 func types() {
 	// integer
-	var X uint8 = 255
+	var X uint8 = 225
 	fmt.Println(X+1, X)
 	var Y int16 = 32765
 	fmt.Println(Y - 2)
@@ -13,29 +13,30 @@ func types() {
 	a := 20.45
 	b := 34.89
 	c := b - a
-	fmt.Printf("Result: %f", c)
-	fmt.Printf("\n type of c is: %T", c)
+	fmt.Printf("Natija: %f", c)
+	fmt.Printf("\n c ning turi : %T", c)
 
 	// complex
-	var d1 complex128 = complex(6, 2)
-	var d2 complex64 = complex(9, 2)
-	fmt.Println(d1)
-	fmt.Println(d2)
-	fmt.Printf(" type of d1 is %T and type of d2 is %T", d1, d2)
+	var d complex128 = complex(6, 2)
+	var e complex64 = complex(9, 2)
+	fmt.Println(d)
+	fmt.Println(e)
+	fmt.Printf("d ning turi %T va e ning turi %T", d, e)
 
 	// boolean
-	str1 := "Virtual Lessons"
-	str2 := "Virtual Lessons"
-	str3 := "Virtual Lessons"
+	str1 := "VirtualDars"
+	str2 := "virtualDars"
+	str3 := "virtualdars"
 	result1 := str1 == str2
 	result2 := str1 == str3
 	fmt.Println(result1)
 	fmt.Println(result2)
-	fmt.Printf("type of result1 is %T and type of result2 is %T", result1, result2)
+	fmt.Printf("result1 ning turi %T va result2 ning turi %T", result1, result2)
 
 	// string
-	str := "Virtual Lessons"
-	fmt.Printf("\nlength of string is %d", len(str))
-	fmt.Printf("\nString: %s", str)
-	fmt.Printf("\ntype of string is %T", str)
+	str := "VirtualDars"
+	fmt.Printf("\nstr matnning uzunligi %d", len(str))
+	fmt.Printf("\nMatn: %s", str)
+	fmt.Printf("\nstr ning turi: %T", str)
+	const PI = 3.14
 }
