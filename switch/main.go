@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	testSwitch2()
+	testSwitch3()
 }
 
 func testIf() {
@@ -69,5 +69,18 @@ func testSwitch2() {
 		fmt.Println("Привет!")
 	default:
 		fmt.Println("Invalid greeting!")
+	}
+}
+
+// Third example to switch cases
+func testSwitch3() {
+	var userChoice string = "two"
+	switch userChoice {
+	case "one":
+		fmt.Println("Pytohn!")
+	case "two", "three":
+		fmt.Println("GO!")
+	case "four", "five", "six":
+		fmt.Println("Javascript!")
 	}
 }
