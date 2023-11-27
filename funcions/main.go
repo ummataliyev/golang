@@ -23,7 +23,7 @@ import "fmt"
 // 	return math.Sqrt(x), nil
 // }
 
-// By value
+// By value argument
 // func main() {
 // 	var a int = 10
 // 	var b int = 20
@@ -40,7 +40,7 @@ import "fmt"
 // 	return 0
 // }
 
-// By reference
+// By reference argument
 func main() {
 	var a int = 10
 	var b int = 20
