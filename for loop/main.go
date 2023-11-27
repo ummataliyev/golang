@@ -38,7 +38,7 @@ import "fmt"
 // 	}
 // }
 
-// The fifth way to use for lopp with map (dict)
+// The fifth way to use for lopp with map (dictionary)
 func main() {
 	myarray := map[int]string{
 		1: "Python",
